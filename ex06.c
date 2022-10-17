@@ -33,6 +33,6 @@ void troca(char *pnome, char *psobrenome, char *paux)
   strcpy(pnome, psobrenome);
   strcpy(psobrenome, paux);
 
-  printf("Seu nome é: %s", pnome);
-  printf("Seu sobrenome é: %s", psobrenome);
+  printf("Seu nome após a troca é: %s", pnome);
+  printf("Seu sobrenome após a troca é: %s", psobrenome);
 }
